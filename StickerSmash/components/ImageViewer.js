@@ -6,7 +6,7 @@ export default function ImageViewer({ placeholderImageSource, selectedImage }) {
 
     return (
         <Image
-            source={placeholderImageSource}
+            source={imageSource}
             style={styles.image}
         />
     );
