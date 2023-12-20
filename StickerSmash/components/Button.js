@@ -30,7 +30,9 @@ export default function Button({ label, onPress, theme }) {
                 style={styles.button}
                 onPress={() => (onPress)}
             >
-                <Text style={styles.buttonLabel}>{label}</Text>
+                <Text style={styles.buttonLabel}>
+                    {label}
+                </Text>
             </Pressable>
         </View>
     );
