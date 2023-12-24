@@ -1,13 +1,18 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, Button } from "react-native";
 
 
 export default function App() {
 	return (
 		<View style={styles.container}>
-			<Text>Open up App.js to start working on your app!</Text>
+			<View>
+				<Text>Open up App.js to start working on your app!</Text>
+			</View>
 
-			<StatusBar style="auto" />
+			<Text style={{margin: 16, borderWidth: 2, borderColor: "red", padding: 16}}>
+				Hello World.
+			</Text>
+
+			<Button title="Click Me!" />
 		</View>
 	);
 };
