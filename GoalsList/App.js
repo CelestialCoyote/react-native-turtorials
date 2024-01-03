@@ -18,7 +18,7 @@ export default function App() {
 		setModalVisible(true);
 	};
 
-	const endAddGaolHandler = () => {
+	const endAddGoalHandler = () => {
 		setModalVisible(false);
 	};
 
@@ -28,7 +28,7 @@ export default function App() {
 			{ text: goalText, id: Math.random().toString() }
 		]);
 
-		endAddGaolHandler();
+		endAddGoalHandler();
 	};
 
 	const deleteGoalHandler = (id) => {
@@ -51,7 +51,7 @@ export default function App() {
 				<GoalInput
 					visible={modalVisible}
 					addGoal={addGoalHandler}
-					onCancel={endAddGaolHandler}
+					onCancel={endAddGoalHandler}
 				/>
 
 				<View style={styles.goalsContainer}>
