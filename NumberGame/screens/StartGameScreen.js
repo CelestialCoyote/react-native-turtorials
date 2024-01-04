@@ -27,7 +27,7 @@ export default function StartGameScreen() {
 
 const styles = StyleSheet.create({
 	inputContainer: {
-        backgroundColor: "#72063C",
+        backgroundColor: "#4E0329",
         borderRadius: 8,
         elevation: 4,
         marginHorizontal: 24,
